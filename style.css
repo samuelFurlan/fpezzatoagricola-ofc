@@ -561,7 +561,7 @@ input:focus {
 
 .single-welcome-slides {
   width: 100%;
-  height: 800px;
+  height: 600px;
   position: relative;
   z-index: 1; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -569,10 +569,10 @@ input:focus {
       height: 550px; } }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-welcome-slides {
-      height: 600px; } }
+      height: 300px; } }
   @media only screen and (max-width: 767px) {
     .single-welcome-slides {
-      height: 600px; } }
+      height: 300px; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .single-welcome-slides {
       height: 450px; } }

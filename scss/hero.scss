@@ -13,10 +13,10 @@
     height: 550px;
   }
   @media #{$breakpoint-md} {
-    height: 600px;
+    height: 300px;
   }
   @media #{$breakpoint-xs} {
-    height: 600px;
+    height: 300px;
   }
   @media #{$breakpoint-xs-landscape} {
     height: 450px;
