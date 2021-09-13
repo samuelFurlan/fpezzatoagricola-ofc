@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="982414a5-1aaf-4acf-9dc9-5d0c075fe7d5" name="Changes" comment="">
+    <list default="true" id="982414a5-1aaf-4acf-9dc9-5d0c075fe7d5" name="Changes" comment="V 1.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +41,17 @@
       <workItem from="1629207396791" duration="31000" />
       <workItem from="1630505731957" duration="6437000" />
       <workItem from="1630518381776" duration="338000" />
-      <workItem from="1631369309453" duration="2290000" />
+      <workItem from="1631369309453" duration="3699000" />
+      <workItem from="1631554679864" duration="223000" />
     </task>
+    <task id="LOCAL-00001" summary="V 1.0">
+      <created>1631372594381</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631372594381</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -57,5 +67,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="V 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 1.0" />
   </component>
 </project>
