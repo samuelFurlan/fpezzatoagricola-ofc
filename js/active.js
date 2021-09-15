@@ -150,3 +150,9 @@ $(document).ready(function () {
         stagePadding: 80,
     });
 });
+
+function abrirGaleria(target){
+$(".carousel-item").removeClass("active");
+$("#imgGaleria"+target).addClass("active");
+$("#modalGaleria").modal("show");
+}

@@ -213,49 +213,49 @@
                         </div>
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria1.webp" alt="">
+                        <img src="img/galeria/galeria1.webp" alt="" onclick="abrirGaleria(1)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria2.webp" alt="">
+                        <img src="img/galeria/galeria2.webp" alt="" onclick="abrirGaleria(2)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria3.webp" alt="">
+                        <img src="img/galeria/galeria3.webp" alt="" onclick="abrirGaleria(3)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria4.webp" alt="">
+                        <img src="img/galeria/galeria4.webp" alt="" onclick="abrirGaleria(4)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria5.webp" alt="">
+                        <img src="img/galeria/galeria5.webp" alt="" onclick="abrirGaleria(5)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria6.webp" alt="">
+                        <img src="img/galeria/galeria6.webp" alt="" onclick="abrirGaleria(6)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria7.webp" alt="">
+                        <img src="img/galeria/galeria7.webp" alt="" onclick="abrirGaleria(7)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria8.webp" alt="">
+                        <img src="img/galeria/galeria8.webp" alt="" onclick="abrirGaleria(8)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria9.webp" alt="">
+                        <img src="img/galeria/galeria9.webp" alt="" onclick="abrirGaleria(9)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria10.webp" alt="">
+                        <img src="img/galeria/galeria10.webp" alt="" onclick="abrirGaleria(10)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria11.webp" alt="">
+                        <img src="img/galeria/galeria11.webp" alt="" onclick="abrirGaleria(11)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria12.webp" alt="">
+                        <img src="img/galeria/galeria12.webp" alt="" onclick="abrirGaleria(12)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria13.webp" alt="">
+                        <img src="img/galeria/galeria13.webp" alt="" onclick="abrirGaleria(13)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria14.webp" alt="">
+                        <img src="img/galeria/galeria14.webp" alt="" onclick="abrirGaleria(14)" style="cursor: pointer;">
                     </div>
                     <div class="col-4 mb-3">
-                        <img src="img/galeria/galeria15.webp" alt="">
+                        <img src="img/galeria/galeria15.webp" alt="" onclick="abrirGaleria(15)" style="cursor: pointer;">
                     </div>
                 </div>
             </div>
@@ -753,6 +753,101 @@
     </div>
 </footer>
 <!-- ##### Footer Area End ##### -->
+<!-- Modal -->
+<div class="modal fade" id="modalGaleria" tabindex="-1" aria-labelledby="modalGaleria" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item" id="imgGaleria1">
+                            <img src="img/galeria/galeria1.webp" class="d-block w-100" alt="...">
+                            <h5>Inicio da F.Pezzato em 1993</h5>
+                            <p>Na imagem pode se observar os proprietários da empresa F.Pezzato Agrícola em frente do seu primeiro estabelecimento.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria2">
+                            <img src="img/galeria/galeria2.webp" class="d-block w-100" alt="...">
+                            <h5>Proprietários da F.Pezzato Agrícola</h5>
+                            <p>Na foto pode se observar o interior da primeira loja, atrás do balcão se ve o casal de proprietários Fabio e Maria, e o irmão Francisco.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria3">
+                            <img src="img/galeria/galeria3.webp" class="d-block w-100" alt="...">
+                            <h5>Segunda Estabelecimento F.Pezzato Agrícola, após aquisição de primeira caminhonete.</h5>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria4">
+                            <img src="img/galeria/galeria4.webp" class="d-block w-100" alt="...">
+                            <h5>Local onde futuramente viria a ser o próximo estabelecimento da F.Pezzato Agrícola</h5>
+                            <p>Na imagem observar se pessoas descarregando itens em galpão aparentemente vazio.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria5">
+                            <img src="img/galeria/galeria5.webp" class="d-block w-100" alt="...">
+                            <h5>Terceiro estabelecimento F.Pezzato Agrícola, agora já devidamente pintado e estruturado</h5>
+                            <p>Na imagem observa se o terceiro estabelecimento F.Pezzato Agrícola, já em funcionamento e pintado.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria6">
+                            <img src="img/galeria/galeria6.webp" class="d-block w-100" alt="...">
+                            <h5>Local que viria a ser a extensão do prédio de cima</h5>
+                            <p>Na época o local estava vazio, então os proprietários decidiram expandir a sede da empresa para um lugar mais espaçoso.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria7">
+                            <img src="img/galeria/galeria7.webp" class="d-block w-100" alt="...">
+                            <h5>Imagem frontal do local que viria ser a sede da empresa F.Pezzato Agrícola</h5>
+                            <p>Observa se um local aparentemente abandonado, onde viria ser a sede da empresa.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria8">
+                            <img src="img/galeria/galeria8.webp" class="d-block w-100" alt="...">
+                            <h5>Sede da empresa F.Pezzato Agrícola já em funcionamento</h5>
+                            <p>Observa se o local já reformado e em funcionamento em São Miguel Arcanjo.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria9">
+                            <img src="img/galeria/galeria9.webp" class="d-block w-100" alt="...">
+                            <h5>Imagem panorâmica da sede em São Miguel Arcanjo após finalização da pintura</h5>
+                            <p>Imagem panoramica da sede da empresa.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria10">
+                            <img src="img/galeria/galeria10.webp" class="d-block w-100" alt="...">
+                            <h5>Loja filial em Buri</h5>
+                            <p>Filial inaugurada em 2005, agora com novo estabelecimento !!!</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria11">
+                            <img src="img/galeria/galeria11.webp" class="d-block w-100" alt="...">
+                            <h5>Funcionários em frente a fachada da loja em Buri/SP</h5>
+                            <p>A imagem mostra 2 carros da empresa com produtos a frente, ao lado 2 funcionários da empresa e ao fundo a fachada da empresa em Buri.</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria12">
+                            <img src="img/galeria/galeria12.webp" class="d-block w-100" alt="...">
+                            <h5>Fachada da Filial em Itapetininga</h5>
+                            <p>Inaugurada em 2011</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria13">
+                            <img src="img/galeria/galeria13.webp" class="d-block w-100" alt="...">
+                            <h5>Interior da loja em Itapetininga</h5>
+                            <p>Interior da loja F.Pezzato Agrícola em Itapetininga</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria14">
+                            <img src="img/galeria/galeria14.webp" class="d-block w-100" alt="...">
+                            <h5>Exterior da filial em Pilar do Sul</h5>
+                            <p>Fachada da loja F.Pezzato Agrícola em Pilar do Sul</p>
+                        </div>
+                        <div class="carousel-item" id="imgGaleria15">
+                            <img src="img/galeria/galeria15.webp" class="d-block w-100" alt="...">
+                            <h5>Imagem aérea da filial F.Pezzato em Pilar do Sul</h5>
+                            <p>Imagem aérea da loja agropecúaria e agrícola.</p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- ##### All Javascript Files ##### -->
 <!-- jquery 2.2.4  -->
